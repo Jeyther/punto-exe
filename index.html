@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts Google -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+    <!-- Css Slick (Carruseles) -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="icon" href="img/favicon.ico" type="favicon">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Punto EXE</title>
+</head>
+
+<body class="body">
+
+    <!-- Inicio del header -->
+    <div id="container">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-md-center justify-content-start">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="index.html">
+                    <img class="header__logo " src="img/logo.png" alt="PuntoExe Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between align-items-center w-100"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto text-md-center text-left ">
+                        <li class="nav-item active">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#S2">Tiendas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/petshop.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/index.html#S4">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav flex-row justify-content-md-left justify-content-start flex-nowrap">
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 30 30">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-whatsapp" viewBox="0 0 30 30">
+                                    <path
+                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- fin del header -->
+
+    <!-- Inicio del Main (Seccion 1) -->
+    <main class="main">
+
+        <!-- Texto -->
+        <div class="main__texto">
+            <h1 class="main__texto__titulo">Especialistas</h1>
+            <p class="main__texto__subtitulo">En venta y distribución de productos para cultivo indoor y outdoor</p>
+        </div>
+
+        <!-- Div para encerrar la imagen -->
+        <div class="main__fondo">
+            <img src="img/main/fondo.jpg" alt="fondo" class="main__fondo__img">
+        </div>
+
+    </main>
+    <!-- Fin del Main (Seccion 1) -->
+
+    <!-- Sub-Main -->
+    <section class="submain">
+
+        <div class="submain__envios">
+
+            <img src="img/SUB_MAIN/camion_verde.png" alt="vehiculo_envios">
+
+            <div class="submain__envios__texto">
+
+                <div class="submain__envios__texto__titulo">
+                    <h4>Envíos</h4>
+                </div>
+
+                <div class="submain__envios__texto__subtitulo">
+                    <p>Realizamos envíos a todo el país, mediante correo o encomienda. Todo se envía en cajas reforzadas
+                        y embaladas por nosotros mismos para cuidar cada producto.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- linea -->
+        <hr class="separador">
+        <!-- fin linea -->
+
+        <div class="submain__confianza">
+
+            <img src="img/SUB_MAIN/manos_verde.png" alt="vehiculo_envios">
+
+            <div class="submain__confianza__texto">
+
+                <div class="submain__confianza__texto__titulo">
+                    <h4>Envíos</h4>
+                </div>
+
+                <div class="submain__confianza__texto__subtitulo">
+                    <p>Llevamos años como growshop asesorando y ayudando a nuestros clientes, en todo lo que compete al
+                        cultivo indoor y outdoor, de menor a mayor escala.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- linea -->
+        <hr class="separador">
+        <!-- fin linea -->
+
+        <div class="submain__comunicacion">
+
+            <img src="img/SUB_MAIN/mensaje_verde.png" alt="vehiculo_envios">
+
+            <div class="submain__comunicacion__texto">
+
+                <div class="submain__comunicacion__texto__titulo">
+                    <h4>Envíos</h4>
+                </div>
+
+                <div class="submain__comunicacion__texto__subtitulo">
+                    <p>Asesoria profesional, puedes contactar con nosotros para aclarar cualquier consulta o duda que
+                        tengas.<br>
+                        <span>+54 11 4038 9000</span></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Fin Sub-Main -->
+
+
+    <!-- Inicio Seccion 2 (Tiendas) -->
+    <section class="seccion-2" id="S2">
+
+        <!-- Titulo seccion 2 -->
+        <div class="seccion-2__titulo">
+
+            <hr class="seccion-2__titulo__guion">
+            <h2 class="seccion-2__titulo__texto">Tiendas</h2>
+            <hr class="seccion-2__titulo__guion">
+
+        </div>
+
+        <!-- Namaste -->
+        <div class="seccion-2__namaste">
+
+            <img src="img/NAMASTE/logo_blanco.png" alt="namaste" class="seccion-2__namaste__img">
+
+            <p class="seccion-2__namaste__subtitulo">Fertilizantes 100% Naturales y Orgánicos.</p>
+
+            <div class="seccion-2__namaste__carrusel">
+
+                <div class="seccion-2__namaste__carrusel__elemento">
+
+                    <img src="img/NAMASTE/FERTILIZANTES/fertilizante_oro_negro.png" alt="fertilizante_oro_negro"
+                        class="seccion-2__namaste__carrusel__elemento__img">
+
+                    <p class="seccion-2__namaste__carrusel__elemento__nombre">Fertilizante Oro Negro
+                        7,5-2-10</p>
+
+                    <p class="seccion-2__namaste__carrusel__elemento__descripcion">Potenciador de crecimiento natural
+                        para completar el crecimiento en vegetativo y las primeras etapas de floración.</p>
+
+                    <button class="seccion-2__namaste__carrusel__elemento__boton">Detalles</button>
+
+                </div>
+
+                <div class="seccion-2__namaste__carrusel__elemento">
+
+                    <img src="img/NAMASTE/FERTILIZANTES/fertilizante_trico_mas.png" alt="fertilizante_trico_mas"
+                        class="seccion-2__namaste__carrusel__elemento__img">
+
+                    <p class="seccion-2__namaste__carrusel__elemento__nombre">Fertilizante Trico +</p>
+
+                    <p class="seccion-2__namaste__carrusel__elemento__descripcion">Potenciador de crecimiento natural
+                        para aplicar en período de floración. Fertilizante que actúa como aditivo natural a base de
+                        melazas deshidratadas.</p>
+
+                    <button class="seccion-2__namaste__carrusel__elemento__boton">Detalles</button>
+
+                </div>
+
+                <div class="seccion-2__namaste__carrusel__elemento">
+
+                    <img src="img/NAMASTE/FERTILIZANTES/fertilizante_amazonia.png" alt="fertilizante_amazonia"
+                        class="seccion-2__namaste__carrusel__elemento__img">
+
+                    <p class="seccion-2__namaste__carrusel__elemento__nombre">Fertilizante Orgánico
+                        Amazonia</p>
+
+                    <p class="seccion-2__namaste__carrusel__elemento__descripcion">Fórmula Bio-estimulante con
+                        MICORRIZA.</p>
+
+                    <button class="seccion-2__namaste__carrusel__elemento__boton">Detalles</button>
+
+                </div>
+
+                <div class="seccion-2__namaste__carrusel__elemento">
+
+                    <img src="img/NAMASTE/FERTILIZANTES/fertilizante_flora_booster.png" alt="fertilizante_flora_booster"
+                        class="seccion-2__namaste__carrusel__elemento__img">
+
+                    <p class="seccion-2__namaste__carrusel__elemento__nombre">Fertilizante Flora Booster</p>
+
+                    <p class="seccion-2__namaste__carrusel__elemento__descripcion">Potenciador de producción. Aplicar
+                        durante el período de floración completo hasta dos semanas antes de la cosecha. </p>
+
+                    <button class="seccion-2__namaste__carrusel__elemento__boton">Detalles</button>
+
+                </div>
+
+            </div>
+
+            <button class="seccion-2__namaste__carrusel__boton">Visitar Web</button>
+
+        </div>
+        <!-- Fin Namaste -->
+
+        <!-- Vamp -->
+
+        <!-- Fin Vamp -->
+
+
+    </section>
+    <!-- Fin Seccion 2 -->
+
+    <!-- Inicio Seccion 3 (Nosotros) -->
+    <section class="seccion-3" id="S3">
+
+        <!-- Titulo seccion 3 -->
+        <div class="seccion-3__titulo">
+
+            <hr class="seccion-3__titulo__guion">
+            <h2 class="seccion-3__titulo__texto">Nosotros</h2>
+            <hr class="seccion-3__titulo__guion">
+
+        </div>
+
+        <div class="seccion-3__contenedor">
+
+            <div class="seccion-3__contenedor__box">
+
+                <p class="seccion-3__contenedor__box__texto">Somos una empresa distribuidora mayorista dedicada y
+                    especializada en la venta articulos para growshops y bioinsumos para cultivo indoor y outdoor,
+                    ofreciendo envios a todo el país.</p>
+
+            </div>
+
+            <img src="img/logo.png" alt="logo">
+
+        </div>
+
+    </section>
+    <!-- Fin Seccion 3 -->
+
+    <!-- Inicio Seccion 4 (Contacto) -->
+    <section class="seccion-4" id="S4">
+
+        <!-- Titulo seccion 4 -->
+        <div class="seccion-4__titulo">
+
+            <hr class="seccion-4__titulo__guion">
+            <h2 class="seccion-4__titulo__texto">Contacto</h2>
+            <hr class="seccion-4__titulo__guion">
+
+        </div>
+
+        <div class="seccion-4__redes">
+
+            <p class="seccion-4__redes__texto">Puedes encontrarnos a través de nuestras redes:</p>
+
+            <div class="seccion-4__redes__contenedor">
+
+                <a href="https://www.instagram.com/distribuidora_puntoexe/" target="_blank"
+                    class="seccion-4__redes__contenedor__instagram">
+
+                    <img src="img/REDES/Instagram.svg" alt="instagram"
+                        class="seccion-4__redes__contenedor__instagram__img">
+
+                    <p class="seccion-4__redes__contenedor__instagram__texto">distribuidora_puntoexe</p>
+
+                </a>
+
+                <a href="wa.link/e7gwv9" target="_blank" class="seccion-4__redes__contenedor__whatsapp">
+
+                    <img src="img/REDES/WhatsApp.svg" alt="whatsapp"
+                        class="seccion-4__redes__contenedor__whatsapp__img">
+
+                    <p class="seccion-4__redes__contenedor__whatsapp__texto">+54 11 4038 9000</p>
+
+                </a>
+
+                <a href="mailto:distri.exe@gmail.com" target="_blank" class="seccion-4__redes__contenedor__correo">
+
+                    <img src="img/REDES/correo.svg" alt="correo" class="seccion-4__redes__contenedor__correo__img">
+
+                    <p class="seccion-4__redes__contenedor__correo__texto">distri.exe@gmail.com</p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="seccion-4__formulario">
+
+            <p class="seccion-4__formulario__texto">O completando este formulario:</p>
+
+            <div class="seccion-4__formulario__contenedor">
+
+                <form action="submit" class="seccion-4__formulario__contenedor__form">
+
+                    <div class="seccion-4__formulario__contenedor__form__nombre">
+
+                        <label for="nombre" class="seccion-4__formulario__contenedor__form__nombre__label">Nombre y
+                            Apellido:</label>
+                        <input type="text" placeholder="Nombre y Apellido" name="nombre"
+                            class="seccion-4__formulario__contenedor__form__nombre__input">
+
+                    </div>
+
+                    <div class="seccion-4__formulario__contenedor__form__telefono">
+
+                        <label for="telefono"
+                            class="seccion-4__formulario__contenedor__form__telefono__label">Teléfono:</label>
+                        <input type="text" placeholder="Teléfono" name="telefono"
+                            class="seccion-4__formulario__contenedor__form__telefono__input">
+
+                    </div>
+
+                    <div class="seccion-4__formulario__contenedor__form__correo">
+
+                        <label for="correo"
+                            class="seccion-4__formulario__contenedor__form__correo__label">Correo:</label>
+                        <input type="text" placeholder="E-mail" name="correo"
+                            class="seccion-4__formulario__contenedor__form__correo__input">
+
+                    </div>
+
+                    <div class="seccion-4__formulario__contenedor__form__mensaje">
+
+                        <label for="mensaje"
+                            class="seccion-4__formulario__contenedor__form__mensaje__label">Mensaje:</label>
+                        <textarea name="mensaje" id="" cols="30" rows="10"
+                            class="seccion-4__formulario__contenedor__form__mensaje__input"
+                            placeholder="Mensaje"></textarea>
+                    </div>
+
+                    <button class="seccion-4__formulario__contenedor__boton">Enviar</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Fin Seccion 4 -->
+
+    <!-- Inicio Mosaico -->
+    <section class="mosaico"> </section>
+    <!-- Fin Mosaico -->
+
+    <!-- Inicio del Footer -->
+    <footer class="footer">
+
+        <img class="footer__logo" src="img/logo.png" alt="logo">
+
+        <div class="footer__nav">
+
+            <ul class="footer__nav__lista">
+
+                <li class="footer__nav__lista__item">
+                    <a href="index.html" class="footer__nav__lista__item__link">Inicio</a>
+                </li>
+
+                <li class="footer__nav__lista__item">
+                    <a href="#S2" class="footer__nav__lista__item__link">Tienda</a>
+                </li>
+
+                <li class="footer__nav__lista__item">
+                    <a href="#S3" class="footer__nav__lista__item__link">Nosotros</a>
+                </li>
+
+                <li class="footer__nav__lista__item">
+                    <a href="#S4" class="footer__nav__lista__item__link">Contacto</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="footer__redes">
+
+            <a target="_blank" href="https://www.instagram.com/distribuidora_puntoexe/" class="Instagram"><i
+                    class="bi bi-instagram">distribuidora_puntoexe</i></a>
+            <a target="_blank" href="wa.link/e7gwv9" class="Twiiter"><i class="bi bi-whatsapp">+54 11 4038 9000</i></a>
+            <a target="_blank" href="mailto:distri.exe@gmail.com" class="Correo"><i
+                    class="bi bi-envelope">distri.exe@gmail.com</i></a>
+
+        </div>
+
+        <div class="footer__info">
+
+            <p class="footer__info__texto">Empresa distribuidora mayorista especialista en productos de growing indoor y outdoor</p>
+            <i class="bi bi-geo-alt-fill">Buenos Aires, Argentina</i>
+
+        </div>
+
+        <div class="footer__copyright">
+
+            <p class="footer__copyright__texto">© 2020 Distribuidora Punto_exe. Todos los derechos reservados.</p>
+
+        </div>
+
+    </footer>
+    <!-- Fin del Footer -->
+
+    <!-- JavaScript -->
+    <!-- Slick (Carruseles) -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Sweet Alert 2.0 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
