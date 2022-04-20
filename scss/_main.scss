@@ -1,0 +1,46 @@
+.main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+
+    position: relative;
+    width: 1280px;
+    height: 780px;
+
+    margin-top: 85px;
+
+    &__texto{
+
+        &__titulo{
+
+            font-size: 65px;
+            
+
+        }
+        color: white;
+
+        z-index: 1;
+
+    }
+
+    &__fondo {
+
+        position: absolute;
+        overflow: hidden;
+
+        width: 1280px;
+        height: 780px ;
+
+        border-radius: 0 0 40px 40px;
+
+        &__img{
+
+            width: 100%;
+        }
+
+    }
+
+}
