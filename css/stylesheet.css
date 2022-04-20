@@ -7885,9 +7885,14 @@ a {
   margin-top: 85px; }
   .main__texto {
     color: white;
+    width: 450px;
+    margin-left: 60PX;
     z-index: 1; }
     .main__texto__titulo {
-      font-size: 65px; }
+      font-size: 65px;
+      letter-spacing: 1px; }
+    .main__texto__subtitulo {
+      font-size: 22px; }
   .main__fondo {
     position: absolute;
     overflow: hidden;
