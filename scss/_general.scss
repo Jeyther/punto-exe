@@ -42,14 +42,17 @@ a {
 /* color de fondo */
 .body {
 
-    background: white;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1280px;
+    gap: 20px;
+
     font-family: var(--principal_font);
 
+    background: white;
+
+    margin: 0 auto;
+    max-width: 1280px;
 
 }
 

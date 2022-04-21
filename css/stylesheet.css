@@ -7859,13 +7859,14 @@ a {
 
 /* color de fondo */
 .body {
-  background: white;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1280px;
-  font-family: var(--principal_font); }
+  gap: 20px;
+  font-family: var(--principal_font);
+  background: white;
+  margin: 0 auto;
+  max-width: 1280px; }
 
 /* resaltar pagina seleccionada */
 /* .selected {
@@ -7906,8 +7907,7 @@ a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 0px 20px;
-  margin: 40px 0px; }
+  padding: 0px 20px; }
   .submain__tarjeta {
     display: flex;
     align-items: center;
@@ -7940,7 +7940,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 100%; }
+  width: 100%;
+  margin: 20px 0px; }
   .seccion-2__titulo {
     display: flex;
     justify-content: center;
@@ -8042,8 +8043,12 @@ a {
         transition: transform .3s ease-in-out; }
 
 .seccion-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   width: 1280px;
-  height: 720px; }
+  height: 720px;
+  margin: 20px 0px; }
   .seccion-3__titulo {
     display: flex;
     justify-content: center;
@@ -8085,4 +8090,102 @@ a {
       width: 460px;
       height: 460px;
       align-self: center;
-      margin-right: 100px; }
+      margin-right: 100px;
+      border-radius: 50%;
+      box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.251); }
+
+.seccion-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1280px;
+  height: 720px;
+  margin: 20px 0px; }
+  .seccion-4__titulo {
+    display: flex;
+    justify-content: center;
+    gap: 20px; }
+    .seccion-4__titulo__guion {
+      width: 100%;
+      background-color: #000;
+      opacity: 1;
+      margin: 0 auto;
+      align-self: center; }
+    .seccion-4__titulo__texto {
+      font-size: 46px;
+      font-weight: 600; }
+  .seccion-4__redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    .seccion-4__redes__texto {
+      font-size: 20px;
+      font-weight: 500; }
+    .seccion-4__redes__contenedor {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 100px; }
+      .seccion-4__redes__contenedor__red {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: black; }
+        .seccion-4__redes__contenedor__red:nth-child(3) img {
+          margin: 10px 5px; }
+  .seccion-4__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; }
+    .seccion-4__formulario__texto {
+      font-size: 20px;
+      font-weight: 500; }
+    .seccion-4__formulario__contenedor {
+      background-color: var(--color_secundario);
+      border-radius: 30px;
+      width: 850px;
+      padding: 40px 40px 20px 40px; }
+      .seccion-4__formulario__contenedor__form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 60px; }
+        .seccion-4__formulario__contenedor__form > div {
+          display: flex;
+          flex-direction: column;
+          gap: 5px; }
+          .seccion-4__formulario__contenedor__form > div > label {
+            font-size: 16px;
+            font-weight: 500; }
+          .seccion-4__formulario__contenedor__form > div > input,
+          .seccion-4__formulario__contenedor__form > div textarea {
+            font-size: 16px;
+            border: none;
+            background-color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            resize: none;
+            outline: none; }
+          .seccion-4__formulario__contenedor__form > div > textarea {
+            height: 150px; }
+        .seccion-4__formulario__contenedor__form__correo, .seccion-4__formulario__contenedor__form__mensaje, .seccion-4__formulario__contenedor__form__boton {
+          grid-column: 1 / 3; }
+        .seccion-4__formulario__contenedor__form__boton {
+          font-size: 20px;
+          font-weight: 600;
+          color: white;
+          background-color: var(--color_primario);
+          border-radius: 20px;
+          border: none;
+          width: 160px;
+          height: 40px;
+          margin: 0px auto;
+          transform: scale(0.9);
+          transition: transform .3s; }
+          .seccion-4__formulario__contenedor__form__boton:hover {
+            transform: scale(1);
+            transition: transform .3s; }
