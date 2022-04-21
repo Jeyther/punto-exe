@@ -1,9 +1,6 @@
-.header__logo {
 
-    width: 80px;
-    padding-left: 20px;
 
-}
+
 
 .nav {
 
@@ -11,10 +8,24 @@
     &bar {
 
         max-width: 1280px;
-        margin: auto;
+        margin: 0 auto;
 
         background-color: var(--color_terciario);
         // border-radius: 0 0 15px 15px;
+
+        &-brand{
+
+            margin: 0px;
+            padding: 0px;
+
+            .header__logo {
+
+                width: 70px;
+                padding-left: 20px;
+            
+            }
+
+        }
 
     }
 
@@ -22,19 +33,19 @@
 
         margin: 0 10px;
         position: relative;
-        font-size: 20px;
+        font-size: 16px;
 
     }
 
     &-instagram {
 
-        width: 45px;
+        width: 35px;
 
     }
 
     &-whatsapp {
 
-        width: 45px;
+        width: 35px;
 
     }
 

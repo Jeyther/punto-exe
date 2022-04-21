@@ -2,6 +2,7 @@
 
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
 
     width: 1280px;
@@ -13,6 +14,8 @@
 
         display: flex;
         justify-content: center;
+
+        width: 100%;
 
         gap: 20px;
 
@@ -28,7 +31,7 @@
 
         &__texto {
 
-            font-size: 46px;
+            // font-size: 46px;
             font-weight: 600;
 
         }
@@ -40,10 +43,13 @@
         display: flex;
         justify-content: space-between;
 
-        background-image: url('/img/NOSOTROS/fondo.jpg');
+        background-image: url('../img/NOSOTROS/fondo.jpg');
         background-size: cover;
         background-position: center 60%;
         background-repeat: no-repeat;
+
+
+        width: 1200px;
         height: 720px;
 
         border-radius: 40px;
