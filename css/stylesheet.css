@@ -7901,3 +7901,37 @@ a {
     border-radius: 0 0 40px 40px; }
     .main__fondo__img {
       width: 100%; }
+
+.submain {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 20px;
+  margin: 40px 0px; }
+  .submain__tarjeta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 400px; }
+    .submain__tarjeta__texto {
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+      .submain__tarjeta__texto__titulo {
+        font-size: 24px; }
+      .submain__tarjeta__texto__subtitulo {
+        font-size: 12px; }
+        .submain__tarjeta__texto__subtitulo span {
+          font-size: 14px;
+          font-weight: 600; }
+    .submain__tarjeta__img {
+      width: 100px;
+      color: blue; }
+  .submain__separador {
+    margin: 0px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    opacity: 1;
+    align-self: center;
+    transform: rotate(90deg); }

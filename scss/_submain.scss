@@ -1,0 +1,70 @@
+.submain {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 40px 0px;
+
+    &__tarjeta {
+
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        width: 400px;
+
+        &__texto {
+
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+
+            &__titulo {
+
+                font-size: 24px;
+
+            }
+
+            &__subtitulo {
+
+                font-size: 12px;
+
+                & span{
+
+                    font-size: 14px;
+                    font-weight: 600;
+
+
+                }
+
+            }
+
+        }
+
+        &__img {
+
+            width: 100px;
+            color: blue;
+
+        }
+
+    }
+
+    &__separador {
+
+        margin: 0px;
+
+        width: 100px;
+        height: 3px;
+        background-color: black;
+        opacity: 1;
+
+        align-self: center;
+        transform: rotate(90deg);
+
+
+    }
+
+}
