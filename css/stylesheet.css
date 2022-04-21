@@ -7855,7 +7855,7 @@ a {
   text-decoration: none;
   color: white; }
   a:hover {
-    color: #000; }
+    color: var(--color_primario); }
 
 /* color de fondo */
 .body {
@@ -8189,3 +8189,45 @@ a {
           .seccion-4__formulario__contenedor__form__boton:hover {
             transform: scale(1);
             transition: transform .3s; }
+
+.footer {
+  width: 1280px;
+  height: 340px; }
+  .footer__mosaico {
+    background-image: url("/img/FOOTER/mosaico.png");
+    width: 1280px;
+    height: 200px; }
+  .footer__contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    background-color: var(--color_terciario);
+    padding: 10px 30px;
+    height: 140px; }
+    .footer__contenedor__img {
+      width: 80px;
+      height: 80px; }
+    .footer__contenedor__nav ul {
+      margin: 0px; }
+    .footer__contenedor__redes {
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+      .footer__contenedor__redes__elemento {
+        display: flex;
+        align-items: center;
+        gap: 10px; }
+    .footer__contenedor__info {
+      display: flex;
+      flex-direction: column;
+      gap: 10px; }
+      .footer__contenedor__info > p {
+        display: flex;
+        gap: 5px; }
+    .footer__contenedor__copyright {
+      text-align: center;
+      grid-column: 1/5;
+      opacity: .6; }

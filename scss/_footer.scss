@@ -1,0 +1,92 @@
+.footer {
+
+
+    width: 1280px;
+    height: 340px;
+
+    &__mosaico {
+
+        background-image: url('/img/FOOTER/mosaico.png');
+
+        width: 1280px;
+        height: 200px;
+
+    }
+
+    &__contenedor {
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        // row-gap: 10px;
+        font-size: 12px;
+        font-weight: 300;
+        color: white;
+
+        background-color: var(--color_terciario);
+
+        padding: 10px 30px;
+
+        height: 140px;
+
+        &__img {
+
+            width: 80px;
+            height: 80px;
+
+        }
+
+        &__nav {
+
+            & ul {
+
+                margin: 0px;
+
+            }
+
+        }
+
+        &__redes {
+
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            &__elemento {
+
+
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+
+            }
+
+        }
+
+        &__info{
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            & > p{
+
+                display: flex;
+                gap: 5px;
+
+            } 
+
+        }
+
+        &__copyright {
+
+            text-align: center;
+            grid-column: 1/5;
+            opacity: .6;
+
+        }
+
+    }
+
+}
