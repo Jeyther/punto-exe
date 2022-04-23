@@ -1,6 +1,6 @@
 $(() => {
 
-    $('#carrusel').slick({
+    $('.carrusel').slick({
         dots: false,
         arrows: true,
         infinite: true,
