@@ -1,10 +1,13 @@
 $(() => {
 
-    $('#carrusel').slick({
+  
+
+
+    $('.carrusel').slick({
         dots: false,
         arrows: true,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         speed: 300,
         slidesToShow: 3,

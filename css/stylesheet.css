@@ -7847,7 +7847,8 @@ textarea.form-control-lg {
   margin: 0;
   padding: 0; }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+p {
   margin: 0;
   padding: 0; }
 
@@ -7942,7 +7943,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   width: 100%;
   margin: 20px 0px; }
   .seccion-2__titulo {
@@ -7958,7 +7959,7 @@ a {
       align-self: center; }
     .seccion-2__titulo__texto {
       font-weight: 600; }
-  .seccion-2__namaste {
+  .seccion-2__namaste, .seccion-2__vamp {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7967,15 +7968,15 @@ a {
     width: 1200px;
     background-color: var(--color_primario);
     border-radius: 40px; }
-    .seccion-2__namaste__img {
+    .seccion-2__namaste__img, .seccion-2__vamp__img {
       width: 240px; }
-    .seccion-2__namaste__subtitulo {
+    .seccion-2__namaste__subtitulo, .seccion-2__vamp__subtitulo {
       font-size: 16px;
       font-weight: 600;
       color: #fff; }
-    .seccion-2__namaste__carrusel {
+    .seccion-2__namaste__carrusel, .seccion-2__vamp__carrusel {
       width: 90%; }
-      .seccion-2__namaste__carrusel__elemento {
+      .seccion-2__namaste__carrusel__elemento, .seccion-2__vamp__carrusel__elemento {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -7984,28 +7985,30 @@ a {
         background-color: white;
         border: 5px solid var(--color_secundario);
         border-radius: 10px;
-        padding: 10px 10px;
+        padding: 10px 20px;
         margin: 20px;
         min-width: 260px;
         height: 400px;
         transform: scale(0.9);
         transition: transform 0.2s; }
-        .seccion-2__namaste__carrusel__elemento:hover {
+        .seccion-2__namaste__carrusel__elemento:hover, .seccion-2__vamp__carrusel__elemento:hover {
           transform: scale(1);
           transition: transform 0.5s; }
-        .seccion-2__namaste__carrusel__elemento__texto {
+        .seccion-2__namaste__carrusel__elemento__texto, .seccion-2__vamp__carrusel__elemento__texto {
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 5px; }
-          .seccion-2__namaste__carrusel__elemento__texto__titulo {
+          gap: 5px;
+          height: 100px; }
+          .seccion-2__namaste__carrusel__elemento__texto__titulo, .seccion-2__vamp__carrusel__elemento__texto__titulo {
             font-size: 14px;
-            font-weight: bold; }
-          .seccion-2__namaste__carrusel__elemento__texto__descripcion {
+            font-weight: bold;
+            text-align: center; }
+          .seccion-2__namaste__carrusel__elemento__texto__descripcion, .seccion-2__vamp__carrusel__elemento__texto__descripcion {
             font-size: 12px; }
-        .seccion-2__namaste__carrusel__elemento__img {
-          width: 130px; }
-        .seccion-2__namaste__carrusel__elemento__boton {
+        .seccion-2__namaste__carrusel__elemento__img, .seccion-2__vamp__carrusel__elemento__img {
+          height: 200px; }
+        .seccion-2__namaste__carrusel__elemento__boton, .seccion-2__vamp__carrusel__elemento__boton {
           cursor: pointer;
           font-weight: 700;
           transition: all .2s;
@@ -8017,13 +8020,13 @@ a {
           display: flex;
           align-items: center;
           font-size: 14px; }
-          .seccion-2__namaste__carrusel__elemento__boton:hover {
+          .seccion-2__namaste__carrusel__elemento__boton:hover, .seccion-2__vamp__carrusel__elemento__boton:hover {
             background: #f3c600; }
-            .seccion-2__namaste__carrusel__elemento__boton:hover svg {
+            .seccion-2__namaste__carrusel__elemento__boton:hover svg, .seccion-2__vamp__carrusel__elemento__boton:hover svg {
               transform: translateX(5px); }
-          .seccion-2__namaste__carrusel__elemento__boton:active {
+          .seccion-2__namaste__carrusel__elemento__boton:active, .seccion-2__vamp__carrusel__elemento__boton:active {
             transform: scale(0.95); }
-    .seccion-2__namaste__boton {
+    .seccion-2__namaste__boton, .seccion-2__vamp__boton {
       cursor: pointer;
       font-weight: 700;
       transition: all .2s;
@@ -8035,13 +8038,13 @@ a {
       display: flex;
       align-items: center;
       font-size: 15px; }
-      .seccion-2__namaste__boton:hover {
+      .seccion-2__namaste__boton:hover, .seccion-2__vamp__boton:hover {
         background: #f3c600; }
-        .seccion-2__namaste__boton:hover svg {
+        .seccion-2__namaste__boton:hover svg, .seccion-2__vamp__boton:hover svg {
           transform: translateX(5px); }
-      .seccion-2__namaste__boton:active {
+      .seccion-2__namaste__boton:active, .seccion-2__vamp__boton:active {
         transform: scale(0.95); }
-      .seccion-2__namaste__boton > svg {
+      .seccion-2__namaste__boton > svg, .seccion-2__vamp__boton > svg {
         width: 34px;
         margin-left: 10px;
         transition: transform .3s ease-in-out; }

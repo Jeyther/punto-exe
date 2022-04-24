@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 
     width: 100%;
 
@@ -36,7 +36,7 @@
 
     }
 
-    &__namaste {
+    &__namaste, &__vamp {
 
         display: flex;
         flex-direction: column;
@@ -81,7 +81,7 @@
                 border: 5px solid var(--color_secundario);
                 border-radius: 10px;
 
-                padding: 10px 10px;
+                padding: 10px 20px;
                 margin: 20px;
                 min-width: 260px;
                 height: 400px;
@@ -101,19 +101,22 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-
                     gap: 5px;
+
+                    height: 100px;
 
                     &__titulo {
 
                         font-size: 14px;
                         font-weight: bold;
+                        text-align: center;
 
                     }
 
                     &__descripcion {
 
                         font-size: 12px;
+                        // padding: 0px 10px;
 
                     }
 
@@ -121,7 +124,7 @@
 
                 &__img {
 
-                    width: 130px;
+                    height: 200px;
 
                 }
 
