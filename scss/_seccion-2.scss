@@ -36,7 +36,8 @@
 
     }
 
-    &__namaste, &__vamp {
+    &__namaste,
+    &__vamp {
 
         display: flex;
         flex-direction: column;
@@ -67,7 +68,8 @@
 
         &__carrusel {
 
-            width: 90%;
+            width: 100%;
+            padding: 0px 40px;
 
             &__elemento {
 
@@ -76,6 +78,8 @@
                 justify-content: space-between;
                 align-items: center;
                 gap: 10px;
+
+                cursor: pointer;
 
                 background-color: white;
                 border: 5px solid var(--color_secundario);
@@ -86,14 +90,18 @@
                 min-width: 260px;
                 height: 400px;
 
-                transform:   scale(0.90) ;
+                transform: scale(0.90);
                 transition: transform 0.2s;
 
-                &:hover{
-                    
+                &:hover {
+
                     transform: scale(1);
                     transition: transform 0.5s;
 
+                }
+
+                &:active {
+                    transform: scale(0.95);
                 }
 
                 &__texto {
@@ -158,6 +166,121 @@
 
                 }
 
+
+            }
+
+        }
+
+        &__boton {
+
+            cursor: pointer;
+            font-weight: 700;
+            transition: all .2s;
+            padding: 5px 20px;
+            border-radius: 100px;
+            background-color: var(--color_secundario);
+            color: #fff;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+
+            &:hover {
+
+                background: #f3c600;
+
+                & svg {
+                    transform: translateX(5px);
+                }
+
+            }
+
+            &:active {
+                transform: scale(0.95);
+            }
+
+            &>svg {
+
+                width: 34px;
+                margin-left: 10px;
+                transition: transform .3s ease-in-out;
+
+            }
+
+        }
+
+    }
+
+    &__parafernalias {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        padding: 20px 60px;
+
+        width: 1200px;
+
+        background-color: var(--color_primario);
+        border-radius: 40px;
+
+        &__subtitulo {
+
+            font-size: 32px;
+            font-weight: 800;
+            color: white;
+
+        }
+
+        &__grid {
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            align-items: center;
+            justify-items: center;
+            gap: 20px;
+
+            width: 100%;
+
+            &__elemento {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                background-color: white;
+                height: 150px;
+                width: 100%;
+
+                background-color: white;
+                border: 2px solid var(--color_secundario);
+                border-radius: 10px;
+
+                padding: 10px;
+                overflow: hidden;
+
+                transform: scale(0.95);
+                transition: transform 0.2s;
+
+                &:hover {
+
+                    transform: scale(1);
+                    transition: transform 0.5s;
+
+                }
+
+                &__img {
+
+                    max-width: 100%;
+                    max-height: 100%;
+
+
+                }
+
+                &:nth-child(3) {
+                    background-color: #1c2737;
+                }
 
             }
 
