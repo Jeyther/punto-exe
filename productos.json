@@ -1,0 +1,68 @@
+[
+
+    {
+
+        "nombre": "Fertilizante Oro Negro 7,5-2-10",
+        "descripcion": "Potenciador de crecimiento natural para completar el crecimiento en vegetativo y las primeras etapas de floración.",
+        "img": "img/NAMASTE/FERTILIZANTES/fertilizante_oro_negro.png",
+        "marca": "namaste"
+
+    },
+    {
+
+        "nombre": "Fertilizante Trico +",
+        "descripcion": "Potenciador de crecimiento natural para aplicar en período de floración. Fertilizante que actúa como aditivo natural a base de melazas deshidratadas.",
+        "img": "img/NAMASTE/FERTILIZANTES/fertilizante_trico_mas.png",
+        "marca": "namaste"
+
+    },
+    {
+
+        "nombre": "Fertilizante Orgánico Amazonia",
+        "descripcion": "Fórmula Bio-estimulante con MICORRIZA.",
+        "img": "img/NAMASTE/FERTILIZANTES/fertilizante_amazonia.png",
+        "marca": "namaste"
+
+    },
+    {
+
+        "nombre": "Fertilizante Flora Booster",
+        "descripcion": "Potenciador de producción. Aplicar durante el período de floración completo hasta dos semanas antes de la cosecha. ",
+        "img": "img/NAMASTE/FERTILIZANTES/fertilizante_flora_booster.png",
+        "marca": "namaste"
+
+    },
+    {
+
+        "nombre": "Guano de murciélago Bokashi Vegetativo",
+        "descripcion": "Potenciador de crecimiento natural para aplicar en período de floración. Fertilizante que actúa como aditivo natural a base de melazas deshidratadas.",
+        "img": "img/VAMP/GUANO/bokashi_vegetativo.png",
+        "marca": "vamp"
+
+    },
+    {
+
+        "nombre": "Guano de murciélago Bokashi Flora",
+        "descripcion": "La floración es un momento de cambios fisiológicos de la planta, donde enfocará toda su energía en la producción de flores y frutos.",
+        "img": "img/VAMP/GUANO/bokashi_flora.png",
+        "marca": "vamp"
+
+    },
+    {
+
+        "nombre": "Bokashi Gallina + Murcielago Vegetativo",
+        "descripcion": "Esta nueva fórmula mantiene los beneficios de nuestro bokashi cuidando la economía de quienes nos eligen día a día.",
+        "img": "img/VAMP/GALLINA/bokashi_flora.png",
+        "marca": "vamp"
+
+    },
+    {
+
+        "nombre": "Bokashi Gallina + Murcielago Flora",
+        "descripcion": "abono con efecto a corto y largo plazo, el cual posee nutrientes disponibles y microorganismos que liberan más nutrientes hacia la planta según sus necesidades.",
+        "img": "img/VAMP/GALLINA/bokashi_vegetativo.png",
+        "marca": "vamp"
+
+    }
+
+]
