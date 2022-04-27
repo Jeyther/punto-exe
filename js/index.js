@@ -1,5 +1,6 @@
 $(() => {
 
+
     let productos;
 
     const URLJSON = "productos.json";
@@ -19,7 +20,6 @@ $(() => {
         //CREACION DE ELEMENTOS EN EL DOM
         cargarProductosNamaste();
         cargarProductosVamp();
-
 
     });
 
