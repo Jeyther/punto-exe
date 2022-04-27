@@ -33,11 +33,18 @@
 
                 font-size: 12px;
 
-                & span {
+                & a {
 
                     font-size: 14px;
                     font-weight: 600;
+                    color: black;
 
+                    &:hover{
+
+                        color: var(--color_primario);
+
+
+                    }
 
                 }
 

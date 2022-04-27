@@ -7925,9 +7925,12 @@ a {
         font-size: 20px; }
       .submain__tarjeta__texto__subtitulo {
         font-size: 12px; }
-        .submain__tarjeta__texto__subtitulo span {
+        .submain__tarjeta__texto__subtitulo a {
           font-size: 14px;
-          font-weight: 600; }
+          font-weight: 600;
+          color: black; }
+          .submain__tarjeta__texto__subtitulo a:hover {
+            color: var(--color_primario); }
     .submain__tarjeta__img {
       width: 100px; }
   .submain__separador {
