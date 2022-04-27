@@ -32,7 +32,7 @@ $(() => {
                 $(".carrusel--namaste").append(
 
                     `<div class="wrapper">
-                        <div class="seccion-2__namaste__carrusel__elemento">
+                        <a href="${producto.link}" target="_blank" class="seccion-2__namaste__carrusel__elemento">
 
                             <img src="${producto.img}" alt="${producto.nombre}" class="seccion-2__namaste__carrusel__elemento__img">
 
@@ -41,9 +41,9 @@ $(() => {
                                 <p class="seccion-2__namaste__carrusel__elemento__texto__descripcion">${producto.descripcion}</p>
                             </div>
 
-                            <a class="seccion-2__namaste__carrusel__elemento__boton">Detalles</a>
+                            <div class="seccion-2__namaste__carrusel__elemento__boton">Detalles</div>
 
-                        </div>
+                        </a>
                     </div>`
 
                 )
@@ -66,7 +66,7 @@ $(() => {
                 $(".carrusel--vamp").append(
 
                     `<div class="wrapper">
-                        <div class="seccion-2__namaste__carrusel__elemento">
+                        <a href="${producto.link}" target="_blank" class="seccion-2__namaste__carrusel__elemento" class="seccion-2__namaste__carrusel__elemento">
 
                             <img src="${producto.img}" alt="${producto.nombre}" class="seccion-2__namaste__carrusel__elemento__img">
 
@@ -75,9 +75,9 @@ $(() => {
                                 <p class="seccion-2__namaste__carrusel__elemento__texto__descripcion">${producto.descripcion}</p>
                             </div>
 
-                            <a class="seccion-2__namaste__carrusel__elemento__boton">Detalles</a>
+                            <div class="seccion-2__namaste__carrusel__elemento__boton">Detalles</div>
 
-                        </div>
+                        </a>
                     </div>`
 
                 )

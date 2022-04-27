@@ -79,7 +79,7 @@
                 align-items: center;
                 gap: 10px;
 
-                cursor: pointer;
+                color: black;
 
                 background-color: white;
                 border: 5px solid var(--color_secundario);
@@ -93,10 +93,14 @@
                 transform: scale(0.90);
                 transition: transform 0.2s;
 
+                cursor: pointer;
+
                 &:hover {
 
                     transform: scale(1);
                     transition: transform 0.5s;
+
+                    color: black;
 
                 }
 
