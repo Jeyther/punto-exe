@@ -7842,6 +7842,9 @@ textarea.form-control-lg {
   --color_secundario: #FBCE05;
   --color_terciario: #A22BBA; }
 
+html {
+  scroll-behavior: smooth; }
+
 /* Eliminar margen en toda la pagina */
 * {
   margin: 0;
@@ -7990,6 +7993,7 @@ a {
         background-color: white;
         border: 5px solid var(--color_secundario);
         border-radius: 10px;
+        box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.2);
         padding: 10px 20px;
         margin: 20px;
         min-width: 260px;
@@ -8087,6 +8091,7 @@ a {
         background-color: white;
         border: 2px solid var(--color_secundario);
         border-radius: 10px;
+        box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.2);
         padding: 10px;
         overflow: hidden;
         transform: scale(0.95);
@@ -8295,6 +8300,7 @@ a {
     .footer__contenedor__redes {
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
       gap: 5px; }
       .footer__contenedor__redes__elemento {
         display: flex;

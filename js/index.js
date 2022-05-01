@@ -132,4 +132,63 @@ $(() => {
 
     }
 
+/*     $("#submit").click((e) => {
+
+        e.preventDefault();
+
+        const nombre = $("#nombre").val();
+        const email = $("#correo").val();
+        const telefono = $("#telefono").val();
+        const mensaje = $("#mensaje").val();
+
+        if (nombre === "" || email === "" || telefono === "" || mensaje === "") {
+
+            alert("Todos los campos son obligatorios");
+
+        } else {
+
+            fetch("https://formsubmit.co/ajax/jeyther13@gmail.com", {
+                method: "POST",
+                mode: "cors",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                    // 'Access-Control-Allow-Origin': '*'
+                },
+                body: {
+                    name: "FormSubmit",
+                    message: "I'm from Devro LABS"
+                }
+            }).then(response => response.ok ? response.json() : Promise.reject(response))
+                .then(json => console.log(json))
+                .catch(error => console.log(error + "HOLA"));
+
+            $.ajax({
+
+                url: "https://formsubmit.co/ajax/jeyther13@gmail.com",
+                method: "POST",
+                mode: "cors",
+                dataType: "json",
+                accepts: 'application/json',
+                data: {
+                    name: "FormSubmit",
+                    message: "I'm from Devro LABS"
+                },
+                success: (data) => console.log(data),
+                error: (err) => console.log(err)
+            });
+
+            $.ajax({
+                url: "https://formsubmit.co/ajax/8eff7da85ad7715a1fa6ad9b7ca737b4",
+                method: "POST",
+                data: {
+                    name: "FormSubmit",
+                    message: "I'm from Devro LABS"
+                },
+                dataType: "json"
+            });
+
+        }
+    });
+ */
 })
