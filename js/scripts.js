@@ -13,7 +13,7 @@ $(() => {
             dots: false,
             arrows: true,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 2000,
             speed: 300,
             slidesToShow: 3,
