@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Jeyther/punto-exe#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   }
