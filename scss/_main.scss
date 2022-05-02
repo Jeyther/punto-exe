@@ -7,13 +7,13 @@
 
 
     position: relative;
-    width: 1280px;
-    height: 780px;
+    width: 100%;
+    height: 855px;
 
     margin-top: 65px;
 
     &__texto {
-        
+
         color: white;
 
         width: 450px;
@@ -28,7 +28,7 @@
 
         }
 
-        &__subtitulo{
+        &__subtitulo {
 
             font-size: 20px;
 
@@ -38,19 +38,58 @@
 
     &__fondo {
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         position: absolute;
         overflow: hidden;
 
-        width: 1280px;
-        height: 780px;
+        width: 100%;
+        height: 100%;
 
-        border-radius: 0 0 4rem 4rem;
+        border-radius: 0 0 2rem 2rem;
 
         &__img {
 
-            width: 100%;
+            height: 100%;
         }
 
     }
+
+}
+
+@media (max-width: 376px) {
+
+    .main {
+
+        &__texto {
+
+            width: 280px;
+            margin-left: 30PX;
+
+            &__titulo {
+
+                font-size: 38px;
+                letter-spacing: 1px;
+
+            }
+
+            &__subtitulo {
+
+                font-size: 20px;
+
+            }
+
+        }
+
+        &__fondo {
+
+            border-radius: 0 0 1rem 1rem;
+
+        }
+
+    }
+
 
 }
