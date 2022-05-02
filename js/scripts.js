@@ -13,7 +13,7 @@ $(() => {
             dots: false,
             arrows: true,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             speed: 300,
             slidesToShow: 3,
@@ -28,14 +28,14 @@ $(() => {
                     }
                 },
                 {
-                    breakpoint: 600,
+                    breakpoint: 900,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 1
                     }
                 },
                 {
-                    breakpoint: 480,
+                    breakpoint: 700,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
@@ -54,7 +54,7 @@ $(() => {
     Anmiaciones de scroll
     ================================ 
     */
-    AOS.init({duration: 1000});
+    AOS.init({duration: 1000,once: true});
 
 });
 
